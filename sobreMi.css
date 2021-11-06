@@ -1,0 +1,141 @@
+body {
+    background-image: url(images/fondo1.png);
+}
+
+.titulo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 213px;
+    top: -10px;
+    letter-spacing: 3px;
+    
+    font-family: 'Tajawal', sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 84.69%;    
+    color: #005677;
+}
+
+.rectangulo {
+    height: 60px;
+    left: 0px;
+    top: 188px;
+    background-color: #C2CECF;
+    margin-top: 30px;
+    margin-left: 550px;
+    margin-right: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.button- {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color:#D9DFDF;
+    color: #005677;
+    font-family: 'Concert One', cursive;    -webkit-appearance: button;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 100px;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    margin-left: 100px;
+
+}
+
+.button-:hover {
+    background-color: powderblue;
+}
+    
+
+.background-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.bloque1 {
+    background: #C2CECF;
+    height: 30px;
+    left: 0px;
+    top: 188px;
+    display: flex;
+    width: 60%;
+    height: 100%;
+}
+.bloque2 {
+    background-color:#D9DFDF;
+    width: 60%;
+
+
+}
+.subtitulo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 213px;
+    top: -10px;
+    letter-spacing: 1.5px;
+    font-family: 'Tajawal', sans-serif;    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 84.69%;
+    color: #005677;
+    margin-left: 50px;    
+
+}
+
+.subbloque {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #C2CECF;
+    height: 37px;
+    left: 0px;
+    top: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-footer {
+    color: #005677;
+    font-size: 20px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.logos-footer {
+    padding: 0px 5px 0px 5px;
+    width: 20px;
+    height: 20px;
+}
